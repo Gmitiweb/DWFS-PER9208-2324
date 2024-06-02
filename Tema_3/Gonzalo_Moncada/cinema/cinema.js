@@ -49,6 +49,10 @@ function suggest(butacas,butacasabuscar){
     return reservados;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d9f62859ca9abcfc18c94eb47e89774e47dadae
 // Inicializar la matriz
 let butacas = setup();
 
@@ -56,6 +60,7 @@ let butacas = setup();
 //console.log(butacas);
 
 let elem = document.getElementById("Asientos");
+<<<<<<< HEAD
 elem.oninput = () => {
     
     let numAsientos=parseInt(document.getElementById("Asientos").value);
@@ -66,5 +71,10 @@ elem.oninput = () => {
   
 
 
+=======
+    //elem.textContent = joke;
+let buscabutacas = suggest(butacas,elem)
+console.log('Butacas Reservadas:', buscabutacas);
+>>>>>>> 8d9f62859ca9abcfc18c94eb47e89774e47dadae
 
 
